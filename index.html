@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My WebSite</title>
+    <style>
+        table {
+            border: 1px solid black;
+            border-collapse: collapse;
+            width: 10px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 1px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightgray;
+        }
+
+        .red-text {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <td colspan="4" align="center" class="red-text"><b>Table using Colspan and Rowspan</b></td>
+        </tr>
+        <tr>
+            <td colspan="4" align="center">Khanewal Self Store</td>
+        </tr>
+        <tr>
+            <th>Item/Desc</th>
+            <th>QTY</th>
+            <th>Price/Unit</th>
+            <th>Total</th>
+        </tr>
+        <tr>
+            <td>Sugar</td>
+            <td>5kg</td>
+            <td>50</td>
+            <td>250</td>
+        </tr>
+        <tr>
+            <td>Cooking Oil</td>
+            <td>2kg</td>
+            <td>200</td>
+            <td>400</td>
+        </tr>
+        <tr>
+            <td colspan="3">SubTotal</td>
+            <td>810</td>
+        </tr>
+        <tr>
+            <td colspan="2">Tax</td>
+            <td>5%</td>
+            <td>41</td>
+        </tr>
+        <tr>
+            <td colspan="3">Total Bill</td>
+            <td>851</td>
+        </tr>
+    </table>
+</body>
+
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>TIME TABLE</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            border: 5px solid black;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>TIME TABLE</h1>
+    <table>
+        <tr>
+            <th>Day/Period</th>
+            <th>I<br>9:30-10:20</th>
+            <th>II<br>10:20-11:10</th>
+            <th>III<br>11:10-12:00</th>
+            <th>IV<br>12:00-12:40</th>
+            <th>V<br>12:40-1:30</th>
+            <th>VI<br>1:30-2:20</th>
+            <th>VII<br>2:20-3:10</th>
+            <th>VIII<br>3:10-4:00</th>
+        </tr>
+        <tr>
+            <td><b>Monday</b></td>
+            <td>Eng</td>
+            <td>Math</td>
+            <td>Che</td>
+            <td rowspan="5"><h2>LUNCH</h2></td>
+            <td colspan="3">LAB</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <td><b>Tuesday</b></td>
+            <td colspan="3">LAB</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td>Math</td>
+            <td>SPORTS</td>
+        </tr>
+        <tr>
+            <td><b>Wednesday</b></td>
+            <td>Math</td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LIBRARY</td>
+        </tr>
+        <tr>
+            <td><b>Thursday</b></td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LAB</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td><b>Friday</b></td>
+            <td>Phy</td>
+            <td>Eng</td>
+            <td>Che</td>
+            <td colspan="3">LAB</td>
+            <td>Math</td>
+        </tr>
+    </table>
+</body>
+
+</html>
